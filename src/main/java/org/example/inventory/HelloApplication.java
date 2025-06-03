@@ -22,10 +22,3 @@ public class HelloApplication extends Application {
     }
 }
 
-echo "# simpleJava" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/mdAshik922/simpleJava.git
-git push -u origin main
